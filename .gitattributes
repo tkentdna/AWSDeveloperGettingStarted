@@ -1,0 +1,8 @@
+# Convert end-of-line for the following file types to the native operating system (LF for Linux; CRLF for Windows)
+# (Note: We specifically name the file extensions, as opposed to using "* text=auto", to avoid conversions taking place
+#        on unintended files, such as an image file that was converted to a base64 text-content file.)
+*.txt text=auto
+*.html text=auto
+*.css text=auto
+*.js text=auto
+*.ts text=auto
